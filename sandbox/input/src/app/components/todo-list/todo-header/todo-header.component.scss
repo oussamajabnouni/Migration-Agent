@@ -1,0 +1,29 @@
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: #19976a;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header_title {
+  display: flex;
+  color: white;
+  margin-top: 1.5rem !important;
+  font-size: 40px !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  margin-left: 2rem !important;
+}
+
+.header_btn {
+  display: flex;
+  color: white !important;
+  margin-top: 1.5rem !important;
+  font-size: 20px !important;
+  margin-right: 2rem !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  background-color: #125c42 !important;
+}

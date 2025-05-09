@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #0b0d0fe6;
+}
+
+* {
+  mat-card-title {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  }
+  mat-card-subtitle {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  }
+  mat-tab-group {
+    margin: 2rem;
+  }
+}
+
+.delete_btn {
+  background-color: #a11707 !important;
+}
+
+.warn_message {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem !important;
+  font-size: 23px !important;
+}
